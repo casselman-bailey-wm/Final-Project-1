@@ -66,7 +66,7 @@ require_once('conn.php');
         ?>
       </li>
       <li>
-        <a href="#">Subscription</a>
+        <a href="checkout.php">Subscription</a>
       </li>
       <li>
         <a href="#">About</a>
