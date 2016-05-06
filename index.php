@@ -43,14 +43,15 @@ require_once('header.php');
 <body>
 
 <div class="w3-content w3-section" style="max-width:500px">
-    <img class="mySlides" src="http://www.honda.com.au/content/dam/honda/cars/models/nsx/showroom/history-car-09r.png" style="width:100%">
-    <img class="mySlides" src="http://pngimg.com/upload/audi_PNG1769.png" style="width:100%">
-    <img class="mySlides" src="http://local-car-finder.com/images/test2/make/Nissan/model/2016_GT-R_1.png" style="width:100%">
-    <img class="mySlides" src="http://www.mideast.dodge.com/assets/images/vehicles/2015/charger/features/model_details/SRT%20Hellcat/thumb/thumb.png" style="width:100%">
-    <img class="mySlides" src="http://3ge.shared.assets.s3.amazonaws.com/new-model-pages/chevrolet/2015/corvette_z06/15_corvette_z06-vehicle.png" style="width:100%">
-    <img class="mySlides" src="http://488spider.ferrari.com/img/carHome.png" style="width:100%">
-    <img class="mySlides" src="https://ricklevinassociates.files.wordpress.com/2010/04/bugatticlean1.png" style="width:100%">
-    <img class="mySlides" src="http://petrolhigh.com/wp-content/uploads/2015/01/Ford-GT-Gulf-2016.png" style="width:100%">
+    <img class="mySlides" src="Untitled-1.png" style="width:100%">
+    <img class="mySlides" src="Untitled-2.png" style="width:100%">
+    <img class="mySlides" src="Untitled-3.png" style="width:100%">
+    <img class="mySlides" src="Untitled-4.png" style="width:100%">
+    <img class="mySlides" src="Untitled-5.png" style="width:100%">
+    <img class="mySlides" src="Untitled-6.png" style="width:100%">
+    <img class="mySlides" src="Untitled-7.png" style="width:100%">
+    <img class="mySlides" src="Untitled-8.png" style="width:100%">
+    <img class="mySlides" src="Untitled-9.png" style="width:100%">
 </div>
 
 <script>
