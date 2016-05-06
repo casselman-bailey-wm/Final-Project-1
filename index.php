@@ -23,24 +23,8 @@ require_once('header.php');
     </div>
 </div>
 
-<script src="js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Menu Toggle Script -->
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<style>
-    .mySlides {display:none;}
-</style>
-<body>
 
 <div class="w3-content w3-section" style="max-width:500px">
     <img class="mySlides" src="Untitled-1.png" style="width:100%">
@@ -67,10 +51,23 @@ require_once('header.php');
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
+
         setTimeout(carousel, 2000); // Change image every 2 seconds
     }
 </script>
 
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
 
 <?php
 
