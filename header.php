@@ -72,7 +72,7 @@ require_once('conn.php');
         <a href="About.php">About</a>
       </li>
       <li>
-        <a href="#">Services</a>
+        <a href="Services.php">Services</a>
       </li>
       <li>
         <a href="contact.php">Contact</a>
