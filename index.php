@@ -23,24 +23,6 @@ require_once('header.php');
     </div>
 </div>
 
-
-<div class="container">
-
-    <div class="slide s1 active">1</div>
-    <div class="slide s2" data-duration="1000">2</div>
-    <div class="slide s3" data-duration="1000">3</div>
-    <div class="slide s4" data-duration="1000">4</div>
-
-    <img src="Untitled-2.png">
-    <img src="Untitled-4.png">
-    <img src="Untitled-1.png">
-    <img src="Untitled-5.png">
-    <img src="Untitled-7.png">
-    <img src="Untitled-8.png">
-    <img src="Untitled-9.png">
-
-</div>
-
 <script src="js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
@@ -53,6 +35,42 @@ require_once('header.php');
         $("#wrapper").toggleClass("toggled");
     });
 </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+    .mySlides {display:none;}
+</style>
+<body>
+
+<div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="Untitled-1.png" style="width:100%">
+    <img class="mySlides" src="Untitled-2.png" style="width:100%">
+    <img class="mySlides" src="Untitled-3.png" style="width:100%">
+    <img class="mySlides" src="Untitled-4.png" style="width:100%">
+    <img class="mySlides" src="Untitled-5.png" style="width:100%">
+    <img class="mySlides" src="Untitled-6.png" style="width:100%">
+    <img class="mySlides" src="Untitled-7.png" style="width:100%">
+    <img class="mySlides" src="Untitled-8.png" style="width:100%">
+    <img class="mySlides" src="Untitled-9.png" style="width:100%">
+</div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+
 
 <?php
 
