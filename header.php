@@ -65,6 +65,15 @@ require_once('conn.php');
         }
         ?>
       </li>
+      <?php
+
+        if(@$_SESSION['userSession'] == true) {
+
+         echo '<li><a href="checkout.php">Account</a></li>' ;
+
+        }
+
+      ?>
       <li>
         <a href="checkout.php">Subscription</a>
       </li>
