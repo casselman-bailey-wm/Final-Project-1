@@ -27,15 +27,15 @@ require_once('header.php');
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
 <div class="w3-content w3-section" style="max-width:500px">
-    <img class="mySlides" src="Untitled-1.png" style="width:100%">
-    <img class="mySlides" src="Untitled-2.png" style="width:100%">
-    <img class="mySlides" src="Untitled-3.png" style="width:100%">
-    <img class="mySlides" src="Untitled-4.png" style="width:100%">
-    <img class="mySlides" src="Untitled-5.png" style="width:100%">
-    <img class="mySlides" src="Untitled-6.png" style="width:100%">
-    <img class="mySlides" src="Untitled-7.png" style="width:100%">
-    <img class="mySlides" src="Untitled-8.png" style="width:100%">
-    <img class="mySlides" src="Untitled-9.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-1.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-2.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-3.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-4.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-5.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-6.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-7.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-8.png" style="width:100%">
+    <img class="mySlides" src="img/Untitled-9.png" style="width:100%">
 </div>
 
 <script>
