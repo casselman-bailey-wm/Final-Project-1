@@ -57,7 +57,7 @@ require_once('conn.php');
 
         if(@$_SESSION['userSession'] == true) {
 
-          echo '<h4 style="color: white;">Hello! ' . $rows['user_username'] . ' </h4><a href="logout.php">Logout</a>';
+          echo '<h4 style="color: white;">Hello! ' . $rows['user_username'] . ' </h4><a href="logout.php" style="color: lightblue;">Logout</a>';
 
         }else{
 
